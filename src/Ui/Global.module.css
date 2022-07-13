@@ -24,6 +24,8 @@
 width: 105px;
 height: 13.5vh;
 font-size: 20px;
+border-radius: 10%;
+border-color: rgb(190, 190, 190);
 }
 .numberboxes{
     margin-left: 10px;
@@ -35,5 +37,15 @@ font-size: 20px;
     height: 18vh;
 }
 .countmembers *{
-    height: 7.8vh;
+    height: 7.6vh;
+}
+.countclear{
+    font-weight: bold;
+}
+.countdelete{
+    font-weight: bold;
+}
+
+.result{
+    font-size: 40px;
 }

@@ -68,9 +68,9 @@ resultClear = (el)=>{
             <Button onClick={this.resultElement} className={classes.countminus}>-</Button>
             <Button onClick={this.resultElement} className={classes.countmulty}>*</Button>
             <Button onClick={this.resultElement} className={classes.countdivide}>/</Button>
-            <Button onClick={this.resultInput} className={classes.countdivide}>=</Button>
-            <Button onClick={this.resultDelete} className={classes.countdivide}>CC</Button>
-            <Button onClick={this.resultClear} className={classes.countdivide}>DEL</Button>
+            <Button onClick={this.resultInput} className={classes.countresult}>=</Button>
+            <Button onClick={this.resultDelete} className={classes.countdelete}>CC</Button>
+            <Button onClick={this.resultClear} className={classes.countclear}>DEL</Button>
             </Card>
           </Card>
         </Card>
