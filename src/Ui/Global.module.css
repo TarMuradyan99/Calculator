@@ -1,0 +1,39 @@
+
+.boxcalc{
+    width: 40%;
+    height: 70vh;
+    border: 3px solid rgb(90, 90, 169);
+    border-radius: 4%;
+    background-color: rgb(211, 230, 248);
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.resultbox{
+    height: 10vh;
+    width: 80%;
+    list-style-type: none;
+    border: 2px solid rgb(71, 71, 71);
+    background-color: rgb(124, 150, 150);
+    margin-left: 17px;
+}
+.mathworks{
+    display: flex;
+    margin-right: 5px;
+}
+.mathworks *{
+width: 105px;
+height: 13.5vh;
+font-size: 20px;
+}
+.numberboxes{
+    margin-left: 10px;
+    width: 78%;
+    height: 50vh;
+}
+.numberboxes *{
+    width: 102px;
+    height: 18vh;
+}
+.countmembers *{
+    height: 7.8vh;
+}
